@@ -1,0 +1,36 @@
+/*
+Theme name: WordPress and Barba va example
+Author name: Feras Jobeir
+Author URL: https://www.fjobeir.com
+*/
+
+body {
+    font-size: 1.3em;
+    background:#f0f8ff;
+    line-height:2
+}
+body.page {
+    background:#edeff2
+}
+body.archive {
+    background:#bdf2c6
+}
+a {
+    color:#282828;
+}
+
+ul.menu {
+    width:100;
+    display:flex;
+    list-style:none;
+}
+ul.menu li {
+    padding: 1em
+}
+ul.menu li.current-menu-item a {
+    color:#04bfad
+}
+.homepage-text {
+    text-align:center;
+    padding:2em
+}
